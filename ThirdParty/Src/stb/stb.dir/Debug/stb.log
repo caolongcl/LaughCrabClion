@@ -1,0 +1,4 @@
+﻿  Building Custom Rule C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/ThirdParty/Src/stb/CMakeLists.txt
+cl : 命令行 warning D9002: 忽略未知选项“-m64”
+  stb.cpp
+  stb.vcxproj -> C:\Enter\work\cwdxtech\privateprj\LaughCrabClion\bin\Debug\stb.dll

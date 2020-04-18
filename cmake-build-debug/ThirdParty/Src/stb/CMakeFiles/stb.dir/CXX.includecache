@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../ThirdParty/Include/stb/stb_image.h
+stb_image.h
+../ThirdParty/Include/stb/stb_image.h
+stdio.h
+-
+stdarg.h
+-
+stddef.h
+-
+stdlib.h
+-
+string.h
+-
+limits.h
+-
+math.h
+-
+stdio.h
+-
+assert.h
+-
+stdint.h
+-
+emmintrin.h
+-
+intrin.h
+-
+arm_neon.h
+-
+
+C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/ThirdParty/Src/stb/stb.cpp
+stb_image.h
+C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/ThirdParty/Src/stb/stb_image.h
+

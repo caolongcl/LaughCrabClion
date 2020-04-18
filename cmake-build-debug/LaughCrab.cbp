@@ -1,0 +1,516 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="LaughCrab"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\Code\;CMake Files\Code\Core\;CMake Files\Test\;CMake Files\ThirdParty\;CMake Files\ThirdParty\Src\;CMake Files\ThirdParty\Src\Glad\;CMake Files\ThirdParty\Src\stb\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/Enter/tools/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/Enter/tools/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Enter/tools/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Enter/tools/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/Enter/tools/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/Enter/tools/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Enter/tools/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Enter/tools/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="LaughCrab">
+				<Option output="C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/cmake-build-debug/bin/LaughCrab.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/Test"/>
+					<Add directory="C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/Code/Core"/>
+					<Add directory="C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/Code/Core/Math"/>
+					<Add directory="C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/Code/Core/Memory"/>
+					<Add directory="C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/Code/Core/Service"/>
+					<Add directory="C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/Code/Core/Utils"/>
+					<Add directory="C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/Code/Include"/>
+					<Add directory="C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/ThirdParty/Include/Glad"/>
+					<Add directory="C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/ThirdParty/Include/Glm"/>
+					<Add directory="C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/ThirdParty/Include/OpenGex"/>
+					<Add directory="C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/ThirdParty/Include/SDL"/>
+					<Add directory="C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/ThirdParty/Include/stb"/>
+					<Add directory="C:/Enter/tools/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Enter/tools/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Enter/tools/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Enter/tools/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Enter/tools/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Enter/tools/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Enter/tools/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/cmake-build-debug/Makefile&quot;  VERBOSE=1 LaughCrab"/>
+					<CompileFile command="C:/Enter/tools/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Enter/tools/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Enter/tools/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="LaughCrab/fast">
+				<Option output="C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/cmake-build-debug/bin/LaughCrab.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/Test"/>
+					<Add directory="C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/Code/Core"/>
+					<Add directory="C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/Code/Core/Math"/>
+					<Add directory="C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/Code/Core/Memory"/>
+					<Add directory="C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/Code/Core/Service"/>
+					<Add directory="C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/Code/Core/Utils"/>
+					<Add directory="C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/Code/Include"/>
+					<Add directory="C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/ThirdParty/Include/Glad"/>
+					<Add directory="C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/ThirdParty/Include/Glm"/>
+					<Add directory="C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/ThirdParty/Include/OpenGex"/>
+					<Add directory="C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/ThirdParty/Include/SDL"/>
+					<Add directory="C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/ThirdParty/Include/stb"/>
+					<Add directory="C:/Enter/tools/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Enter/tools/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Enter/tools/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Enter/tools/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Enter/tools/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Enter/tools/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Enter/tools/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/cmake-build-debug/Makefile&quot;  VERBOSE=1 LaughCrab/fast"/>
+					<CompileFile command="C:/Enter/tools/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Enter/tools/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Enter/tools/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/Enter/tools/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/Enter/tools/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Enter/tools/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Enter/tools/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="core">
+				<Option output="C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/cmake-build-debug/bin/libcore.dll" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/cmake-build-debug/Code/Core"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/Test"/>
+					<Add directory="C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/Code/Core"/>
+					<Add directory="C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/Code/Core/Math"/>
+					<Add directory="C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/Code/Core/Memory"/>
+					<Add directory="C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/Code/Core/Service"/>
+					<Add directory="C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/Code/Core/Utils"/>
+					<Add directory="C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/Code/Include"/>
+					<Add directory="C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/ThirdParty/Include/Glad"/>
+					<Add directory="C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/ThirdParty/Include/Glm"/>
+					<Add directory="C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/ThirdParty/Include/OpenGex"/>
+					<Add directory="C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/ThirdParty/Include/SDL"/>
+					<Add directory="C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/ThirdParty/Include/stb"/>
+					<Add directory="C:/Enter/tools/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Enter/tools/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Enter/tools/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Enter/tools/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Enter/tools/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Enter/tools/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Enter/tools/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/cmake-build-debug/Code/Core/Makefile&quot;  VERBOSE=1 core"/>
+					<CompileFile command="C:/Enter/tools/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/cmake-build-debug/Code/Core/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Enter/tools/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/cmake-build-debug/Code/Core/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Enter/tools/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/cmake-build-debug/Code/Core/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="core/fast">
+				<Option output="C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/cmake-build-debug/bin/libcore.dll" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/cmake-build-debug/Code/Core"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/Test"/>
+					<Add directory="C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/Code/Core"/>
+					<Add directory="C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/Code/Core/Math"/>
+					<Add directory="C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/Code/Core/Memory"/>
+					<Add directory="C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/Code/Core/Service"/>
+					<Add directory="C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/Code/Core/Utils"/>
+					<Add directory="C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/Code/Include"/>
+					<Add directory="C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/ThirdParty/Include/Glad"/>
+					<Add directory="C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/ThirdParty/Include/Glm"/>
+					<Add directory="C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/ThirdParty/Include/OpenGex"/>
+					<Add directory="C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/ThirdParty/Include/SDL"/>
+					<Add directory="C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/ThirdParty/Include/stb"/>
+					<Add directory="C:/Enter/tools/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Enter/tools/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Enter/tools/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Enter/tools/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Enter/tools/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Enter/tools/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Enter/tools/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/cmake-build-debug/Code/Core/Makefile&quot;  VERBOSE=1 core/fast"/>
+					<CompileFile command="C:/Enter/tools/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/cmake-build-debug/Code/Core/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Enter/tools/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/cmake-build-debug/Code/Core/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Enter/tools/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/cmake-build-debug/Code/Core/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="glad">
+				<Option output="C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/cmake-build-debug/bin/libglad.dll" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/cmake-build-debug/ThirdParty/Src/Glad"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/Test"/>
+					<Add directory="C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/Code/Core"/>
+					<Add directory="C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/Code/Core/Math"/>
+					<Add directory="C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/Code/Core/Memory"/>
+					<Add directory="C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/Code/Core/Service"/>
+					<Add directory="C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/Code/Core/Utils"/>
+					<Add directory="C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/Code/Include"/>
+					<Add directory="C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/ThirdParty/Include/Glad"/>
+					<Add directory="C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/ThirdParty/Include/Glm"/>
+					<Add directory="C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/ThirdParty/Include/OpenGex"/>
+					<Add directory="C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/ThirdParty/Include/SDL"/>
+					<Add directory="C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/ThirdParty/Include/stb"/>
+					<Add directory="C:/Enter/tools/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Enter/tools/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Enter/tools/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Enter/tools/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Enter/tools/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Enter/tools/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Enter/tools/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/cmake-build-debug/ThirdParty/Src/Glad/Makefile&quot;  VERBOSE=1 glad"/>
+					<CompileFile command="C:/Enter/tools/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/cmake-build-debug/ThirdParty/Src/Glad/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Enter/tools/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/cmake-build-debug/ThirdParty/Src/Glad/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Enter/tools/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/cmake-build-debug/ThirdParty/Src/Glad/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="glad/fast">
+				<Option output="C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/cmake-build-debug/bin/libglad.dll" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/cmake-build-debug/ThirdParty/Src/Glad"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/Test"/>
+					<Add directory="C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/Code/Core"/>
+					<Add directory="C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/Code/Core/Math"/>
+					<Add directory="C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/Code/Core/Memory"/>
+					<Add directory="C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/Code/Core/Service"/>
+					<Add directory="C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/Code/Core/Utils"/>
+					<Add directory="C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/Code/Include"/>
+					<Add directory="C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/ThirdParty/Include/Glad"/>
+					<Add directory="C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/ThirdParty/Include/Glm"/>
+					<Add directory="C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/ThirdParty/Include/OpenGex"/>
+					<Add directory="C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/ThirdParty/Include/SDL"/>
+					<Add directory="C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/ThirdParty/Include/stb"/>
+					<Add directory="C:/Enter/tools/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Enter/tools/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Enter/tools/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Enter/tools/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Enter/tools/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Enter/tools/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Enter/tools/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/cmake-build-debug/ThirdParty/Src/Glad/Makefile&quot;  VERBOSE=1 glad/fast"/>
+					<CompileFile command="C:/Enter/tools/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/cmake-build-debug/ThirdParty/Src/Glad/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Enter/tools/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/cmake-build-debug/ThirdParty/Src/Glad/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Enter/tools/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/cmake-build-debug/ThirdParty/Src/Glad/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="stb">
+				<Option output="C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/cmake-build-debug/bin/libstb.dll" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/cmake-build-debug/ThirdParty/Src/stb"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/Test"/>
+					<Add directory="C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/Code/Core"/>
+					<Add directory="C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/Code/Core/Math"/>
+					<Add directory="C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/Code/Core/Memory"/>
+					<Add directory="C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/Code/Core/Service"/>
+					<Add directory="C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/Code/Core/Utils"/>
+					<Add directory="C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/Code/Include"/>
+					<Add directory="C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/ThirdParty/Include/Glad"/>
+					<Add directory="C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/ThirdParty/Include/Glm"/>
+					<Add directory="C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/ThirdParty/Include/OpenGex"/>
+					<Add directory="C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/ThirdParty/Include/SDL"/>
+					<Add directory="C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/ThirdParty/Include/stb"/>
+					<Add directory="C:/Enter/tools/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Enter/tools/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Enter/tools/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Enter/tools/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Enter/tools/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Enter/tools/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Enter/tools/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/cmake-build-debug/ThirdParty/Src/stb/Makefile&quot;  VERBOSE=1 stb"/>
+					<CompileFile command="C:/Enter/tools/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/cmake-build-debug/ThirdParty/Src/stb/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Enter/tools/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/cmake-build-debug/ThirdParty/Src/stb/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Enter/tools/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/cmake-build-debug/ThirdParty/Src/stb/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="stb/fast">
+				<Option output="C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/cmake-build-debug/bin/libstb.dll" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/cmake-build-debug/ThirdParty/Src/stb"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/Test"/>
+					<Add directory="C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/Code/Core"/>
+					<Add directory="C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/Code/Core/Math"/>
+					<Add directory="C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/Code/Core/Memory"/>
+					<Add directory="C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/Code/Core/Service"/>
+					<Add directory="C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/Code/Core/Utils"/>
+					<Add directory="C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/Code/Include"/>
+					<Add directory="C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/ThirdParty/Include/Glad"/>
+					<Add directory="C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/ThirdParty/Include/Glm"/>
+					<Add directory="C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/ThirdParty/Include/OpenGex"/>
+					<Add directory="C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/ThirdParty/Include/SDL"/>
+					<Add directory="C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/ThirdParty/Include/stb"/>
+					<Add directory="C:/Enter/tools/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Enter/tools/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Enter/tools/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Enter/tools/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Enter/tools/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Enter/tools/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Enter/tools/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/cmake-build-debug/ThirdParty/Src/stb/Makefile&quot;  VERBOSE=1 stb/fast"/>
+					<CompileFile command="C:/Enter/tools/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/cmake-build-debug/ThirdParty/Src/stb/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Enter/tools/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/cmake-build-debug/ThirdParty/Src/stb/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Enter/tools/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/cmake-build-debug/ThirdParty/Src/stb/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/Code/Core/Application/Application.cpp">
+			<Option target="core"/>
+		</Unit>
+		<Unit filename="C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/Code/Core/Application/Application.hpp">
+			<Option target="core"/>
+		</Unit>
+		<Unit filename="C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/Code/Core/Base.hpp">
+			<Option target="core"/>
+		</Unit>
+		<Unit filename="C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/Code/Core/Context/Context.hpp">
+			<Option target="core"/>
+		</Unit>
+		<Unit filename="C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/Code/Core/Context/SDLContext.cpp">
+			<Option target="core"/>
+		</Unit>
+		<Unit filename="C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/Code/Core/Context/SDLContext.hpp">
+			<Option target="core"/>
+		</Unit>
+		<Unit filename="C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/Code/Core/Core.cpp">
+			<Option target="core"/>
+		</Unit>
+		<Unit filename="C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/Code/Core/DataModel/Event.hpp">
+			<Option target="core"/>
+		</Unit>
+		<Unit filename="C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/Code/Core/DataModel/Glob.cpp">
+			<Option target="core"/>
+		</Unit>
+		<Unit filename="C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/Code/Core/DataModel/Glob.hpp">
+			<Option target="core"/>
+		</Unit>
+		<Unit filename="C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/Code/Core/DataModel/KeyCode.hpp">
+			<Option target="core"/>
+		</Unit>
+		<Unit filename="C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/Code/Core/DebugUtils.hpp">
+			<Option target="core"/>
+		</Unit>
+		<Unit filename="C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/Code/Core/Life/Life.cpp">
+			<Option target="core"/>
+		</Unit>
+		<Unit filename="C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/Code/Core/Life/Life.hpp">
+			<Option target="core"/>
+		</Unit>
+		<Unit filename="C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/Code/Core/Math/Math.hpp">
+			<Option target="core"/>
+		</Unit>
+		<Unit filename="C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/Code/Core/Memory/Allocator.hpp">
+			<Option target="core"/>
+		</Unit>
+		<Unit filename="C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/Code/Core/Memory/MemPool.cpp">
+			<Option target="core"/>
+		</Unit>
+		<Unit filename="C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/Code/Core/Memory/MemPool.hpp">
+			<Option target="core"/>
+		</Unit>
+		<Unit filename="C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/Code/Core/Memory/MemStack.cpp">
+			<Option target="core"/>
+		</Unit>
+		<Unit filename="C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/Code/Core/Memory/MemStack.hpp">
+			<Option target="core"/>
+		</Unit>
+		<Unit filename="C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/Code/Core/Memory/MemUtils.hpp">
+			<Option target="core"/>
+		</Unit>
+		<Unit filename="C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/Code/Core/Runtime.hpp">
+			<Option target="core"/>
+		</Unit>
+		<Unit filename="C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/Code/Core/Scene/Camera.hpp">
+			<Option target="core"/>
+		</Unit>
+		<Unit filename="C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/Code/Core/Scene/PerspectiveCamera.cpp">
+			<Option target="core"/>
+		</Unit>
+		<Unit filename="C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/Code/Core/Scene/PerspectiveCamera.hpp">
+			<Option target="core"/>
+		</Unit>
+		<Unit filename="C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/Code/Core/Service/CameraService.cpp">
+			<Option target="core"/>
+		</Unit>
+		<Unit filename="C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/Code/Core/Service/CameraService.hpp">
+			<Option target="core"/>
+		</Unit>
+		<Unit filename="C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/Code/Core/Service/ContextService.cpp">
+			<Option target="core"/>
+		</Unit>
+		<Unit filename="C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/Code/Core/Service/ContextService.hpp">
+			<Option target="core"/>
+		</Unit>
+		<Unit filename="C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/Code/Core/Service/EventService.cpp">
+			<Option target="core"/>
+		</Unit>
+		<Unit filename="C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/Code/Core/Service/EventService.hpp">
+			<Option target="core"/>
+		</Unit>
+		<Unit filename="C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/Code/Core/Service/MemoryService.cpp">
+			<Option target="core"/>
+		</Unit>
+		<Unit filename="C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/Code/Core/Service/MemoryService.hpp">
+			<Option target="core"/>
+		</Unit>
+		<Unit filename="C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/Code/Core/Service/ResourceService.cpp">
+			<Option target="core"/>
+		</Unit>
+		<Unit filename="C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/Code/Core/Service/ResourceService.hpp">
+			<Option target="core"/>
+		</Unit>
+		<Unit filename="C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/Code/Core/Service/Service.hpp">
+			<Option target="core"/>
+		</Unit>
+		<Unit filename="C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/Code/Core/Service/ServiceHub.cpp">
+			<Option target="core"/>
+		</Unit>
+		<Unit filename="C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/Code/Core/Service/ServiceHub.hpp">
+			<Option target="core"/>
+		</Unit>
+		<Unit filename="C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/Code/Core/Service/SysCfgService.cpp">
+			<Option target="core"/>
+		</Unit>
+		<Unit filename="C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/Code/Core/Service/SysCfgService.hpp">
+			<Option target="core"/>
+		</Unit>
+		<Unit filename="C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/Code/Core/Task/Task.hpp">
+			<Option target="core"/>
+		</Unit>
+		<Unit filename="C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/Code/Core/TestCore/Shader.cpp">
+			<Option target="core"/>
+		</Unit>
+		<Unit filename="C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/Code/Core/TestCore/Shader.hpp">
+			<Option target="core"/>
+		</Unit>
+		<Unit filename="C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/Code/Core/TestCore/ShaderProgram.cpp">
+			<Option target="core"/>
+		</Unit>
+		<Unit filename="C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/Code/Core/TestCore/ShaderProgram.hpp">
+			<Option target="core"/>
+		</Unit>
+		<Unit filename="C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/Code/Core/TestCore/TestCore.hpp">
+			<Option target="core"/>
+		</Unit>
+		<Unit filename="C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/Code/Core/TypeDef.hpp">
+			<Option target="core"/>
+		</Unit>
+		<Unit filename="C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/Code/Core/UnCopyable.hpp">
+			<Option target="core"/>
+		</Unit>
+		<Unit filename="C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/Code/Core/Utils/EncryptMd5.hpp">
+			<Option target="core"/>
+		</Unit>
+		<Unit filename="C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/Code/Core/Utils/Ref.hpp">
+			<Option target="core"/>
+		</Unit>
+		<Unit filename="C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/Code/Core/Utils/RefHelper.hpp">
+			<Option target="core"/>
+		</Unit>
+		<Unit filename="C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/Code/Core/Utils/ResHelper.hpp">
+			<Option target="core"/>
+		</Unit>
+		<Unit filename="C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/Code/Core/Utils/URef.hpp">
+			<Option target="core"/>
+		</Unit>
+		<Unit filename="C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/Code/Core/Utils/URefHelper.hpp">
+			<Option target="core"/>
+		</Unit>
+		<Unit filename="C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/Test/CameraCustom.cpp">
+			<Option target="LaughCrab"/>
+		</Unit>
+		<Unit filename="C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/Test/CameraCustom.hpp">
+			<Option target="LaughCrab"/>
+		</Unit>
+		<Unit filename="C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/Test/Shader.cpp">
+			<Option target="LaughCrab"/>
+		</Unit>
+		<Unit filename="C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/Test/Shader.hpp">
+			<Option target="LaughCrab"/>
+		</Unit>
+		<Unit filename="C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/Test/ShaderProgram.cpp">
+			<Option target="LaughCrab"/>
+		</Unit>
+		<Unit filename="C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/Test/ShaderProgram.hpp">
+			<Option target="LaughCrab"/>
+		</Unit>
+		<Unit filename="C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/TestUtility.cpp">
+			<Option target="LaughCrab"/>
+		</Unit>
+		<Unit filename="C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/TestUtility.hpp">
+			<Option target="LaughCrab"/>
+		</Unit>
+		<Unit filename="C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/ThirdParty/Src/Glad/glad.c">
+			<Option target="glad"/>
+		</Unit>
+		<Unit filename="C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/ThirdParty/Src/stb/stb.cpp">
+			<Option target="stb"/>
+		</Unit>
+		<Unit filename="C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/main.cpp">
+			<Option target="LaughCrab"/>
+		</Unit>
+		<Unit filename="C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/Code/Core/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Code\Core\"/>
+		</Unit>
+		<Unit filename="C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/Test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Test\"/>
+		</Unit>
+		<Unit filename="C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/ThirdParty/Src/Glad/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\ThirdParty\Src\Glad\"/>
+		</Unit>
+		<Unit filename="C:/Enter/work/cwdxtech/privateprj/LaughCrabClion/ThirdParty/Src/stb/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\ThirdParty\Src\stb\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="LaughCrab" targetName="glad" />
+      <config projectName="LaughCrab" targetName="core" />
+      <config projectName="LaughCrab" targetName="stb" />
+      <config projectName="LaughCrab" targetName="LaughCrab" />
+    </generated>
+  </component>
+  <component name="CMakeSettings" AUTO_RELOAD="true">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="24bc0f81-f0c7-44df-803b-f5f3a69862fc" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CMakeLists.txt" />
+      </list>
+    </option>
+  </component>
+  <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
+  <component name="ProjectId" id="1RYrxuLcNoa4vGXUbMGwVaZvJfh" />
+  <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="Un&#9;null&#9;null&#10;Test&#9;FILE&#9;file://D:/LaughCrabClion/LaughCrabClion/TestUtility.cpp&#10;main&#9;FILE&#9;file://D:/LaughCrabClion/LaughCrabClion/main.cpp&#10;UR&#9;FILE&#9;file://D:/LaughCrabClion/LaughCrabClion/Code/Core/Utils/URef.hpp&#10;Ref&#9;FILE&#9;file://D:/LaughCrabClion/LaughCrabClion/Code/Core/Utils/Ref.hpp&#10;C&#9;FILE&#9;file://D:/LaughCrabClion/LaughCrabClion/Code/Core/Context/SDLContext.cpp&#10;SDL&#9;FILE&#9;file://D:/LaughCrabClion/LaughCrabClion/ThirdParty/Include/SDL/SDL_events.h&#10;Pe&#9;FILE&#9;file://D:/LaughCrabClion/LaughCrabClion/Code/Core/Scene/PerspectiveCamera.hpp&#10;Con&#9;null&#9;null&#10;Tes&#9;FILE&#9;file://D:/LaughCrabClion/LaughCrabClion/TestUtility.cpp&#10;Ca&#9;null&#9;null&#10;Re&#9;FILE&#9;file://D:/LaughCrabClion/LaughCrabClion/Code/Core/Utils/Ref.hpp&#10;ma&#9;FILE&#9;file://D:/LaughCrabClion/LaughCrabClion/main.cpp&#10;cA&#9;FILE&#9;file://D:/LaughCrabClion/LaughCrabClion/Code/Core/Service/CameraService.cpp&#10;L&#9;FILE&#9;file://D:/LaughCrabClion/LaughCrabClion/Code/Core/Life/Life.cpp&#10;l&#9;FILE&#9;file://D:/LaughCrabClion/LaughCrabClion/Code/Core/Life/Life.cpp&#10;tES&#9;null&#9;null&#10;Life&#9;FILE&#9;file://D:/LaughCrabClion/LaughCrabClion/Code/Core/Life/Life.cpp&#10;mai&#9;FILE&#9;file://D:/LaughCrabClion/LaughCrabClion/main.cpp&#10;Mot&#9;FILE&#9;file://D:/LaughCrabClion/LaughCrabClion/Code/Core/DataModel/Motion.hpp&#10;Ev&#9;FILE&#9;file://D:/LaughCrabClion/LaughCrabClion/Code/Core/Service/EventService.cpp&#10;Conte&#9;FILE&#9;file://D:/LaughCrabClion/LaughCrabClion/Code/Core/Context/SDLContext.cpp&#10;Cam&#9;FILE&#9;file://D:/LaughCrabClion/LaughCrabClion/Code/Core/Service/CameraService.cpp&#10;Even&#9;FILE&#9;file://D:/LaughCrabClion/LaughCrabClion/Code/Core/Service/EventService.cpp&#10;Per&#9;FILE&#9;file://D:/LaughCrabClion/LaughCrabClion/Code/Core/Scene/PerspectiveCamera.cpp&#10;Camer&#9;FILE&#9;file://D:/LaughCrabClion/LaughCrabClion/Code/Core/Service/CameraService.cpp&#10;Lif&#9;FILE&#9;file://D:/LaughCrabClion/LaughCrabClion/Code/Core/Life/Life.cpp&#10;Li&#9;FILE&#9;file://D:/LaughCrabClion/LaughCrabClion/Code/Core/Life/Life.cpp&#10;Cus&#9;FILE&#9;file://D:/LaughCrabClion/LaughCrabClion/Test/CameraCustom.hpp&#10;Ma&#9;FILE&#9;file://D:/LaughCrabClion/LaughCrabClion/main.cpp&#10;SDl&#9;FILE&#9;file://D:/LaughCrabClion/LaughCrabClion/Code/Core/Context/SDLContext.cpp&#10;Mem&#9;FILE&#9;file://D:/LaughCrabClion/LaughCrabClion/Code/Core/Memory/MemPool.cpp&#10;Main&#9;FILE&#9;file://D:/LaughCrabClion/LaughCrabClion/main.cpp&#10;sYS&#9;FILE&#9;file://D:/LaughCrabClion/LaughCrabClion/Code/Core/Service/SysCfgService.hpp&#10;mA&#9;FILE&#9;file://D:/LaughCrabClion/LaughCrabClion/Code/Core/Math/Math.hpp&#10;lIFE&#9;FILE&#9;file://D:/LaughCrabClion/LaughCrabClion/Code/Core/Life/Life.cpp&#10;Math&#9;FILE&#9;file://D:/LaughCrabClion/LaughCrabClion/Code/Core/Math/Math.hpp&#10;Key&#9;FILE&#9;file://D:/LaughCrabClion/LaughCrabClion/Code/Core/DataModel/KeyCode.hpp&#10;Event&#9;FILE&#9;file://D:/LaughCrabClion/LaughCrabClion/Code/Core/DataModel/Event.hpp&#10;Camera&#9;FILE&#9;file://D:/LaughCrabClion/LaughCrabClion/Code/Core/Service/CameraService.hpp&#10;Contex&#9;FILE&#9;file://D:/LaughCrabClion/LaughCrabClion/Code/Core/Context/SDLContext.cpp&#10;Tas&#9;FILE&#9;file://D:/LaughCrabClion/LaughCrabClion/Code/Core/Task/Task.hpp&#10;Eve&#9;FILE&#9;file://D:/LaughCrabClion/LaughCrabClion/Code/Core/Service/EventService.hpp&#10;Te&#9;FILE&#9;file://D:/LaughCrabClion/LaughCrabClion/TestUtility.cpp&#10;Co&#9;FILE&#9;file://D:/LaughCrabClion/LaughCrabClion/Code/Core/Core.cpp&#10;Tes t&#9;FILE&#9;file://D:/LaughCrabClion/LaughCrabClion/TestUtility.cpp&#10;ur&#9;FILE&#9;file://D:/LaughCrabClion/LaughCrabClion/Code/Core/Utils/URef.hpp&#10;SDLc&#9;FILE&#9;file://D:/LaughCrabClion/LaughCrabClion/Code/Core/Context/SDLContext.hpp&#10;Uref&#9;FILE&#9;file://D:/LaughCrabClion/LaughCrabClion/Code/Core/Utils/URef.hpp&#10;memory&#9;FILE&#9;file://C:/Program Files/mingw-w64/x86_64-7.3.0-posix-seh-rt_v5-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/memory" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="CPPToolchains" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Game\LaughCrabClion\cmake-build-debug\bin" />
+      <recent name="D:\Game\LaughCrabClion\cmake-build-debug" />
+      <recent name="D:\CryEngine\LaughCrabClion\ThirdParty\Libs" />
+      <recent name="D:\CryEngine\LaughCrabClion\Build" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\LaughCrabClion\LaughCrabClion\Code\Core\TestCore" />
+      <recent name="D:\Game\LaughCrabClion" />
+      <recent name="D:\Game\LaughCrabClion\Code\Core\Service" />
+      <recent name="D:\Game\LaughCrabClion\Code\Core\Utils" />
+      <recent name="D:\Game\LaughCrabClion\Code\Core\Include" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="CMake Application.LaughCrab">
+    <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="LaughCrab" RUN_TARGET_NAME="LaughCrab" EXPLICIT_BUILD_TARGET_NAME="all">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LaughCrab" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="file://$PROJECT_DIR$" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="LaughCrab" RUN_TARGET_NAME="LaughCrab" EXPLICIT_BUILD_TARGET_NAME="all">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="core" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LaughCrab" TARGET_NAME="core" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="glad" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LaughCrab" TARGET_NAME="glad" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="stb" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LaughCrab" TARGET_NAME="stb" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake Application.Build All" />
+      <item itemvalue="CMake Application.LaughCrab" />
+      <item itemvalue="CMake Application.core" />
+      <item itemvalue="CMake Application.glad" />
+      <item itemvalue="CMake Application.stb" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <created>1569855119440</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1569855119440</updated>
+      <workItem from="1569855120813" duration="1454000" />
+      <workItem from="1569858780396" duration="2394000" />
+      <workItem from="1587226255849" duration="808000" />
+      <workItem from="1587227088987" duration="334000" />
+      <workItem from="1587227570702" duration="242000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

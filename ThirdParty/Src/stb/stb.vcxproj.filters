@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Enter\work\cwdxtech\privateprj\LaughCrabClion\ThirdParty\Src\stb\stb.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Enter\work\cwdxtech\privateprj\LaughCrabClion\ThirdParty\Src\stb\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4796DF3C-95F2-36B4-BCDA-2869A7EA3B96}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

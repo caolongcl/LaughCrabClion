@@ -1,0 +1,1 @@
+ -LC:/Enter/work/cwdxtech/privateprj/LaughCrabClion/Code/Core/../../ThirdParty/Libs ../../bin/libglad.dll.a -lSDL2d ../../bin/libstb.dll.a -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
